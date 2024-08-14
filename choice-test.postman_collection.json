@@ -17,18 +17,20 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/home/vinayak/Downloads/Sample_Employee_data_xlsx (2) (copy).xlsx"
+							"src": []
 						}
 					]
 				},
 				"url": {
-					"raw": "http://localhost:8000/users",
+					"raw": "http://localhost:8000/api/v1/users",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"api",
+						"v1",
 						"users"
 					]
 				}
@@ -41,13 +43,15 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/users",
+					"raw": "http://localhost:8000/api/v1/users",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"api",
+						"v1",
 						"users"
 					]
 				}
@@ -60,15 +64,17 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/users/2000",
+					"raw": "http://localhost:8000/api/v1/users/2005",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"api",
+						"v1",
 						"users",
-						"2000"
+						"2005"
 					]
 				}
 			},
@@ -80,15 +86,17 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8000/users/2000",
+					"raw": "http://localhost:8000/api/v1/users/2005",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"api",
+						"v1",
 						"users",
-						"2000"
+						"2005"
 					]
 				}
 			},
@@ -109,15 +117,17 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8000/users/45",
+					"raw": "http://localhost:8000/api/v1/users/2005",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8000",
 					"path": [
+						"api",
+						"v1",
 						"users",
-						"45"
+						"2005"
 					]
 				}
 			},

@@ -8,7 +8,7 @@ import (
     "gorm.io/gorm"
 )
 
-func RegisterRoutes(router *gin.Engine, db *gorm.DB, rdb *redis.Client) {
+func RegisterRoutes(router *gin.RouterGroup, db *gorm.DB, rdb *redis.Client) {
     fileUploadController := &controllers.FileUploadController{DB: db, RDB: rdb}
 
     router.POST("/users", fileUploadController.UploadFile)
